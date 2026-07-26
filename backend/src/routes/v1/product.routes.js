@@ -8,6 +8,8 @@ const {
   deleteProduct,
   getCategories,
   createCategory,
+  toggleProductStatus,
+  getAllProductsAdmin,
 } = require('../../controller/product.controller');
 const authMiddleware = require('../../middleware/auth.middleware');
 const adminOnly = require('../../middleware/adminOnly');
