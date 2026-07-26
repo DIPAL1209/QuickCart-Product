@@ -29,7 +29,7 @@ export default function OrdersPage() {
           <PackageSearch size={32} className="text-[var(--muted)]/40" />
         </div>
         <p className="text-[var(--ink)] font-medium mb-1">No orders yet</p>
-        <p className="text-[var(--muted)] text-sm mb-5">Your placed orders will show up here.</p>
+        <p className="text-[var(--muted)] text-sm mb-5">Your placed orders will show here.</p>
         <Link href="/" className="text-[var(--accent)] font-semibold text-sm cursor-pointer">
           Start shopping →
         </Link>
