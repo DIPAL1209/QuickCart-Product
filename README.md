@@ -2,7 +2,7 @@
 
 A full-stack e-commerce platform built as an SDE Intern take-home assignment. Includes a customer storefront, an admin panel, secure authentication, and real payment integration in test mode.
 
-**Live Demo:** [add your deployed URL here]
+**Live Demo:** https://quick-cart-product.vercel.app/
 **GitHub Repo:** https://github.com/DIPAL1209/QuickCart-Product
 
 ---
