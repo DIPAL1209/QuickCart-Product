@@ -129,17 +129,6 @@ cd backend
 npm install
 ```
 
-Create a `.env` file in `backend/`:
-
-```dotenv
-PORT=5000
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-JWT_SECRET=your_own_random_secret_string
-RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxx
-RAZORPAY_KEY_SECRET=your_razorpay_test_secret
-```
-
 Run the database schema SQL (see `/backend/sql` if included, or run manually in Supabase's SQL Editor) to create the `profiles`, `categories`, `products`, `orders`, and `order_items` tables.
 
 Start the backend:
@@ -155,14 +144,6 @@ Backend runs on `http://localhost:5000`.
 ```bash
 cd ../frontend
 npm install
-```
-
-Create a `.env.local` file in `frontend/`:
-
-```dotenv
-NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 Start the frontend:
@@ -232,12 +213,12 @@ Register a normal account through the app, then in Supabase's Table Editor, manu
 ## Demo Credentials & Test Payment
 
 **Admin demo account:**
-- Email: `[add a clean demo admin email you create for the evaluator]`
-- Password: `[add password]`
+- Email: `dipaltest01@gmail.com`
+- Password: `test123`
 
 **Customer demo account (optional):**
-- Email: `[add if provided]`
-- Password: `[add if provided]`
+- Email: `dipalpatel2@gmail.com`
+- Password: `Dipal@1209`
 
 **Test payment (Razorpay test mode):**
 - Card: `4111 1111 1111 1111`, any future expiry, any 3-digit CVV
